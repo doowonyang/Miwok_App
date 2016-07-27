@@ -56,7 +56,7 @@ public class ColorsActivity extends AppCompatActivity {
         // {@link ListView} will display list items for each word in the list of words.
         // Do this by calling the setAdapter method on the {@link ListView} object and pass in
         // 1 argument, which is the {@link ArrayAdapter} with the variable name itemsAdapter.
-        listView.setAdapter(adapters);
+        listView.setAdapter(adapter);
 
     }
 }
